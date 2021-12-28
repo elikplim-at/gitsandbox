@@ -63,6 +63,7 @@ capture mkdir "C:\Users\/`c(username)'\Desktop\P20204b_GMB_Local\/$round\"
 capture mkdir "C:\Users\/`c(username)'\Desktop\P20204b_GMB_Local\/$round\/$cycle\"
 capture mkdir "C:\Users\/`c(username)'\Desktop\P20204b_GMB_Local\/$round\/$cycle\/$tool\"
 global local_path "C:\Users\/`c(username)'\Desktop\P20204b_GMB_Local\/$round\/$cycle\/$tool\"
+global git "C:\Users\ElikplimAtsiatorme\Documents\GitHub\sandbox\gitsandbox"
 
 }
 
@@ -78,7 +79,7 @@ global local_path "C:\Users\/`c(username)'\OneDrive - C4ED\Dokumente\Desktop\P20
 n: di "Hi `c(username)'!"
 
 cd "$dofiles"
-*ex
+ex
 }
 
 
