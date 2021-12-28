@@ -88,20 +88,7 @@ cd "$dofiles"
 ******************************************
 ** 1. DATA PROCESSING
 ******************************************
-/*
-do "1.0. ${proj}_${tool}_Decryption.do"
-cd "$dofiles"
-do "1.1. ${proj}_${tool}_Export.do"
-cd "$dofiles"
-do "1.2. ${proj}_${tool}_Corrections_Data.do"
-cd "$dofiles"
-do "1.3. ${proj}_${tool}_Clean_Data.do"
-cd "$dofiles"
-do "1.4. ${proj}_${tool}_Data_Protection.do"
-cd "$dofiles"
-do "2.0. ${proj}_${tool}_Encryption.do"
-/*
-******************************************
+******************
 * 2. FIELDWORK PROGRESS
 ******************************************
 do "2.1. ${proj}_${tool}_Progress.do"
