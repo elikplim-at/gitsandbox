@@ -92,23 +92,14 @@ ex
 ******************
 * 2. FIELDWORK PROGRESS
 ******************************************
-do "2.1. ${proj}_${tool}_Progress.do"
-cd "$dofiles"
-*do "2.2. ${proj}_${tool}_Incentives.do"
-*cd "$dofiles"
+
 
 ******************************************
 ** 3. DATA CHECKS
 ******************************************
-do "3.1. ${proj}_${tool}_Interview.do"
-cd "$dofiles"
-do "3.2. ${proj}_${tool}_Enumerator.do"
-cd "$dofiles"
+
 ******************************************
 ** 4. PRELIMINARY ANALYSIS
 ******************************************
-do "4.1. ${proj}_${tool}_EM.do"
-*/
-*/
 
 di "Ran Successfully!"
